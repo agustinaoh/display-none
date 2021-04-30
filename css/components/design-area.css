@@ -1,4 +1,22 @@
 .design-area{
   margin-top: 130px;
+  padding-bottom: 80px;
+
+}
+
+.design-area h1 {
+  font-weight: 300;
   font-size: 5.5rem;
+}
+
+#find-your-style{
+  padding: 0 0 2px 0;
+  border-bottom: 3px solid #243846;
+}
+
+.design-area a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #243846;
+  font-size: 1.8rem;
 }
