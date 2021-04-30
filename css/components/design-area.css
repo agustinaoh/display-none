@@ -2,18 +2,23 @@
   margin-top: 130px;
   margin-bottom: 80px;
   position: relative;
+  height: 720px;
 }
 
 .design-area h1 {
   font-weight: 300;
-  font-size: 5.5rem;
+  font-size: 6rem;
   position: absolute;
-  bottom: 50px;
+  left: 40px;
+  bottom: 0px;
 }
 
 #find-your-style{
+  margin-top: 30px;
   padding: 0 0 2px 0;
   border-bottom: 3px solid #243846;
+  position: absolute;
+  bottom: -40px;
 }
 
 .design-area a {
@@ -23,10 +28,12 @@
   font-size: 1.8rem;
 }
 
-.design-area #image {
+#design-image {
+  margin-top: 130px;
   background-size: cover;
-  height: 680px;
-  transform: translateX(30%);
-  /* position: absolute; */
+  min-height: 660px;
+  max-width: 62%;
+  /* transform: translateX(30%); */
+  position: absolute;
   right: 0;
 }

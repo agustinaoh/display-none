@@ -21,6 +21,11 @@
   border-bottom: 2px solid white;
   position: absolute;
   bottom: 130px;
+  transition: all 0.5 ease-in;
+}
+
+.slider #discover-button:hover {
+  opacity: 0.6;
 }
 
 .carousel-item {
