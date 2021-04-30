@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+@import url(components/design-area.css);
 @import url(components/header.css);
 @import url(components/slider.css);
 
@@ -7,4 +8,6 @@ body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 300;
+  font-size: 16px;
+  color: #243846;
 }

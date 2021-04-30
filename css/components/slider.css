@@ -5,8 +5,9 @@
   position: relative;
 }
 
-.slider h1 {
+.slider h2 {
   letter-spacing: 30px;
+  font-weight: 300;
   color: white;
   font-size: 4.5rem;
 }
