@@ -1,0 +1,11 @@
+.fabric-card {
+  height: 900px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fabric-card h3 {
+  color: white;
+}
