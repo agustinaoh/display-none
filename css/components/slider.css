@@ -1,0 +1,53 @@
+.slider {
+  width: 100%; /* 1920 px*/
+  height: 1080px;
+  background-color: #ebebeb;
+  position: relative;
+}
+
+.slider h1 {
+  letter-spacing: 30px;
+  font-weight: 300;
+  color: white;
+  font-size: 4.5rem;
+}
+
+.slider #discover-button {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: 130px;
+}
+
+.carousel-item {
+  height: 1080px;
+  width: 100%;
+  background-size: cover;
+}
+
+.carousel-indicators {
+  bottom: 14px;
+}
+
+.carousel-indicators li {
+  background-color: #ccd2d7;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  opacity: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #233745;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  opacity: 1;
+}
