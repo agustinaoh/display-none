@@ -7,7 +7,6 @@
 
 .slider h1 {
   letter-spacing: 30px;
-  font-weight: 300;
   color: white;
   font-size: 4.5rem;
 }
@@ -15,7 +14,6 @@
 .slider #discover-button {
   text-decoration: none;
   color: white;
-  font-weight: 300;
   font-size: 2rem;
   letter-spacing: 4px;
   padding-bottom: 2px;
