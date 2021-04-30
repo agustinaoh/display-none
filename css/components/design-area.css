@@ -1,12 +1,14 @@
 .design-area{
   margin-top: 130px;
-  padding-bottom: 80px;
-
+  margin-bottom: 80px;
+  position: relative;
 }
 
 .design-area h1 {
   font-weight: 300;
   font-size: 5.5rem;
+  position: absolute;
+  bottom: 50px;
 }
 
 #find-your-style{
@@ -19,4 +21,12 @@
   font-weight: 500;
   color: #243846;
   font-size: 1.8rem;
+}
+
+.design-area #image {
+  background-size: cover;
+  height: 680px;
+  transform: translateX(30%);
+  /* position: absolute; */
+  right: 0;
 }
