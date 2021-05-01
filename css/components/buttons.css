@@ -19,3 +19,16 @@
   padding: 12px 36px;
   border: 2px solid white;
 }
+
+.button-blue {
+  text-decoration: none;
+  color: #243846;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  transition: all 0.5 ease-in;
+}
+
+.blue-underline {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #243846;
+}
