@@ -16,3 +16,15 @@
   transform: translateY(-35px);
   font-size: 1.8rem;
 }
+
+.carousel-control-prev-icon {
+  background-image: url('../../images/arrow-left.png');
+  height: 144px;
+  width: 74px;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../../images/arrow-right.png');
+  height: 144px;
+  width: 74px;
+}
