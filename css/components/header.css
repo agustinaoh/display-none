@@ -1,3 +1,14 @@
-header {
-  position: sticky;
+.header {
+  position: absolute;
+  z-index: 5;
+}
+
+#hamburger p {
+  color: white;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+#hamburger img {
+  height: 16px;
 }
