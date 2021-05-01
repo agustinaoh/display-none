@@ -12,3 +12,66 @@
 #hamburger img {
   height: 16px;
 }
+
+.menu {
+  position: absolute;
+  z-index: 4;
+  background-color: white;
+  right: 0;
+  height: 100vh;
+  width: 430px;
+  padding: 70px 40px;
+  /* display: none; */
+}
+
+.menu #title {
+  font-size: 1.4rem;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+.menu p {
+  margin: 0;
+}
+
+.menu a {
+  color: #243846;
+}
+
+.menu img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.menu #sections {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #243846;
+  font-size: 2.4rem;
+}
+
+#extra {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+#languages {
+  color: #949494;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-right: 8px;
+}
+
+#languages .active {
+  color: #243846;
+}
+
+#languages .bar {
+  border-right: 2px solid #243846;
+  height: 24px;
+  width: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
