@@ -1,13 +1,7 @@
+footer .links {
+  padding: 100px 0;
+}
+
 footer {
-  padding: 60px 0;
-}
-
-footer ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-footer li {
-  padding: 0 12px;
+  margin-bottom: 30px;
 }

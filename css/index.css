@@ -19,6 +19,9 @@ body {
   color: #243846;
 }
 
+a,
+a:hover { text-decoration: none; }
+
 
 @media (min-width: 1200px) {
   .container {
