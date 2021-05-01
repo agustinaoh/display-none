@@ -4,10 +4,15 @@
 
 .collection-carousel .collection-content{
   position: absolute;
-  padding: 40px;
+  padding-bottom: 80px;
 }
 
 .collection-carousel .collection-content p {
   color: white;
-  font-size: 3.1rem;
+  font-size: 3.3rem;
+}
+
+.collection-carousel .button-white {
+  transform: translateY(-35px);
+  font-size: 1.8rem;
 }
