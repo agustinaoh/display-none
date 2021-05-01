@@ -4,8 +4,10 @@
 @import url(components/buttons.css);
 @import url(components/collections-slider.css);
 @import url(components/design-area.css);
+@import url(components/hashtag-cloud.css);
 @import url(components/header.css);
 @import url(components/intro.css);
+@import url(components/news.css);
 @import url(components/slider.css);
 
 body {
