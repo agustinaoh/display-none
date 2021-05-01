@@ -8,4 +8,7 @@
 
 .fabric-card h3 {
   color: white;
+  font-weight: 300;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
