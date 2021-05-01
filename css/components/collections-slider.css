@@ -1,0 +1,13 @@
+.collection-carousel {
+  position: relative;
+}
+
+.collection-carousel .collection-content{
+  position: absolute;
+  padding: 40px;
+}
+
+.collection-carousel .collection-content p {
+  color: white;
+  font-size: 3.1rem;
+}
