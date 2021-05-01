@@ -1,5 +1,6 @@
 .fabric-card {
   height: 900px;
+  /* max-width: 650px; */
   width: auto;
   background-size: contain;
   background-repeat: no-repeat;
