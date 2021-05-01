@@ -8,6 +8,8 @@
 
 .button-white:hover {
   opacity: 0.6;
+  color: white;
+  text-decoration: none;
 }
 
 .button-underline {

@@ -1,0 +1,13 @@
+footer {
+  padding: 60px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer li {
+  padding: 0 12px;
+}
