@@ -22,6 +22,9 @@ body {
 a,
 a:hover { text-decoration: none; }
 
+.blue {
+  color: #243846;
+}
 
 @media (min-width: 1200px) {
   .container {
