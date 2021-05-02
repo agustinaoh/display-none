@@ -56,6 +56,8 @@
     font-size: 3.4rem;
     left: 20px;
     bottom: 70px;
+    width: 90%;
+    background-color: white;
   }
 
   #design-area a {
