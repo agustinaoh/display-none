@@ -1,7 +1,7 @@
 .slider {
   width: 100%; /* 1920 px*/
   height: 100vh;
-  background-color: #ebebeb;
+  background-position: center;
   position: relative;
 }
 
@@ -47,8 +47,6 @@
   opacity: 1;
 }
 
-
-
 /* For typical mobile devices */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .slider h2 {
@@ -58,17 +56,9 @@
   }
 }
 
-
 @media only screen and (min-width: 480px) and (max-width: 793px) {
   .slider h2 {
     letter-spacing: 12px;
     font-size: 3rem;
   }
 }
-
-/* @media only screen and (min-width: 794px) {
-  .slider h2 {
-    letter-spacing: 6px;
-    font-size: 4rem;
-  }
-} */
