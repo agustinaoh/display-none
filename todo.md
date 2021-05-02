@@ -9,7 +9,7 @@ FIXME: carousels
 
 
 /* For typical mobile devices */
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 360px) and (max-width: 479px) {
   .color-container {
     width: 80vw;
     margin: 0 auto;

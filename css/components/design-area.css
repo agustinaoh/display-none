@@ -5,12 +5,13 @@
   height: 720px;
 }
 
-#design-area h1 {
+#design-text {
   font-weight: 300;
   font-size: 6rem;
   position: absolute;
   left: 40px;
   bottom: 0px;
+  width: 30%;
 }
 
 #design-area .btn-link {
@@ -41,10 +42,19 @@
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 599px) {
-  #design-area h1 {
-    font-size: 4.5rem;
-    left: -40px;
+@media only screen and (min-width: 360px) and (max-width: 599px) {
+  #design-area{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #design-image {
+    margin-top: 40px;
+  }
+
+  #design-text {
+    font-size: 3.4rem;
+    left: 20px;
     bottom: 70px;
   }
 
@@ -60,10 +70,14 @@
   }
 }
 
-
 @media only screen and (min-width: 600px) and (max-width: 1199px) {
   #design-area a {
     font-size: 1.6rem;
+  }
+
+  #design-text {
+    font-size: 5rem;
+    bottom: 60px;
   }
   
   #design-area .btn-link {
