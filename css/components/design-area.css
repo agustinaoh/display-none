@@ -35,3 +35,10 @@
   position: absolute;
   right: 0;
 }
+
+
+@media (max-width: 762px) {
+  .design-area h1 {
+    font-size: 3.5rem;
+  }
+}
