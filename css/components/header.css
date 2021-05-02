@@ -4,7 +4,7 @@
 }
 
 #hamburger {
-  transform: translateX(-160px);
+  transform: translateX(-210px);
 }
 
 #hamburger p {
@@ -91,4 +91,23 @@
   width: 3px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  #logo {
+    max-width: 60%;
+  }
+
+  #hamburger p {
+    display: none;
+  }
+  
+  #hamburger img {
+    
+  }
+
+  #hamburger {
+    transform: translateX(0);
+    margin: 0;
+  }
 }
