@@ -3,6 +3,7 @@
 }
 
 .collection-carousel .collection-content{
+  display: flex;
   position: absolute;
   padding-bottom: 80px;
 }
@@ -27,4 +28,17 @@
   background-image: url('../../images/arrow-right.png');
   height: 144px;
   width: 74px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .collection-carousel .collection-content p {
+    font-size: 1.5rem;
+  }
+
+  .collection-carousel .collection-content {
+    display: block;
+  }
 }
