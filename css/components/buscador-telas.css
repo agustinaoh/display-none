@@ -13,7 +13,13 @@
   background-repeat: no-repeat;
   background-position: center;
   filter: brightness(0.85);
+  transition: all 0.5 ease-in;
 }
+
+/* .fabric-card-image:hover {
+  background-size: 120%;
+  filter: none;
+} */
 
 .fabric-card > h3 {
   color: white;
@@ -22,4 +28,8 @@
   letter-spacing: 3px;
   position: absolute;
   z-index: 1;
+}
+
+.fabric-card a {
+  color: white;
 }
