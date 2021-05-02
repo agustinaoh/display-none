@@ -33,3 +33,24 @@
 .fabric-card a {
   color: white;
 }
+
+
+
+@media only screen and (max-width: 770px) {
+  .telas {
+    margin-top: 110px;
+  }
+
+  .fabric-card {
+    margin-bottom: 30px;
+    height: 55vh;
+  }
+}
+
+@media only screen and (min-width: 771px) and (max-width: 1360px){
+  .fabric-card {
+    width: 48%;
+    height: 55vh;
+    margin-bottom: 2vw;
+  }
+}
