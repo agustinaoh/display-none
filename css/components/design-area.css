@@ -1,11 +1,11 @@
-.design-area{
+#design-area{
   margin-top: 130px;
   margin-bottom: 80px;
   position: relative;
   height: 720px;
 }
 
-.design-area h1 {
+#design-area h1 {
   font-weight: 300;
   font-size: 6rem;
   position: absolute;
@@ -13,15 +13,18 @@
   bottom: 0px;
 }
 
-#find-your-style{
-  margin-top: 30px;
-  padding: 0 0 2px 0;
-  border-bottom: 3px solid #243846;
+#design-area .btn-link {
   position: absolute;
   bottom: -40px;
 }
 
-.design-area a {
+#find-your-style{
+  margin-top: 30px;
+  padding: 0 0 2px 0;
+  border-bottom: 3px solid #243846;
+}
+
+#design-area a {
   font-weight: 500;
   font-size: 1.8rem;
 }
@@ -29,6 +32,7 @@
 #design-image {
   margin-top: 130px;
   background-size: cover;
+  background-position: center;
   min-height: 660px;
   max-width: 62%;
   /* transform: translateX(30%); */
@@ -37,8 +41,36 @@
 }
 
 
-@media (max-width: 762px) {
-  .design-area h1 {
-    font-size: 3.5rem;
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  #design-area h1 {
+    font-size: 4.5rem;
+    left: -40px;
+    bottom: 70px;
   }
+
+  #design-area a {
+    font-size: 1.4rem;
+  }
+
+  #design-area .btn-link {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    width: 90vw;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  #design-area a {
+    font-size: 1.6rem;
+  }
+  
+  #design-area .btn-link {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    width: 400px;
+  }
+
 }
