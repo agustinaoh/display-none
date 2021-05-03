@@ -2,12 +2,13 @@
   color: white;
   font-size: 2rem;
   letter-spacing: 4px;
-  transition: all 0.5 ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .button-white:hover {
   opacity: 0.6;
   color: white;
+  transform: translateY(-4px);
 }
 
 .button-underline {
