@@ -64,16 +64,17 @@ function initSlides() {
           // start: "40% 50%", // position of trigger meets the scroller position
           start: "top bottom",
           end: "center top",
-          markers: true
+          markers: false
       }
   });
 
   tl.from(intro.querySelectorAll('.slide-p'), {
       y: 200,
       duration: 2,
+      scrub: 1,
       ease: "power4",
       stagger: 0.1
-  }, 0)
+  })
 };
   
 

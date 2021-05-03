@@ -7,6 +7,7 @@
 
 #intro .intro-text {
   position: absolute;
+  width: 50%;
   top: 0;
   left: 0;
   font-size: 2.8rem;
@@ -60,4 +61,29 @@ body { margin: 20px; }
 @keyframes marquee {
   0% { left: 0; }
   100% { left: -100%; }
-} 
+}
+
+
+@media only screen and (max-width: 699px) {
+  #intro .intro-text {
+    font-size: 2rem;
+    font-weight: 400;
+    width: 90%;
+  }
+
+  .marquee {
+    transform: rotate(0deg) translateX(0) /* rotation compensation */;
+    overflow: hidden;
+    position: absolute;
+    right: 50px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1200px) {
+  #intro .intro-text {
+    margin-top: 20px;
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 70%;
+  }
+}
