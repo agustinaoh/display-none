@@ -43,8 +43,7 @@ function initIntro() {
       trigger: '.telas',
       scrub: 1,
       start: "top bottom",
-      end: "center top",
-      markers: true
+      end: "center top"
     }
   });
 
