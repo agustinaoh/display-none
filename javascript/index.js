@@ -9,6 +9,7 @@ const menu = document.querySelector('.menu');
 
 const carousel = document.querySelector('.carousel')
 const newsSection = document.querySelector('#news')
+const introSection = document.querySelector('#intro')
 
 // functions
 function openMenu(){
@@ -53,10 +54,34 @@ function initIntro() {
         .from('.fc-4', {y: 200, duration: 3, opacity: 0}, '-= 3' )
 }
 
+function initSlides() {
+    
+  // Animation of each slide scrolling into view
+
+  let tl = gsap.timeline({
+      scrollTrigger: {
+          trigger: '#intro',
+          // start: "40% 50%", // position of trigger meets the scroller position
+          start: "top bottom",
+          end: "center top",
+          markers: true
+      }
+  });
+
+  tl.from(intro.querySelectorAll('.slide-p'), {
+      y: 200,
+      duration: 2,
+      ease: "power4",
+      stagger: 0.1
+  }, 0)
+};
+  
+
 // event listeners
 hamburgerMenu.addEventListener('click', openMenu);
 closeIcon.addEventListener('click', closeMenu);
 
 window.onload = () => {
   initIntro()
+  initSlides()
 };
