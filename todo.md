@@ -1,6 +1,6 @@
 TODO: hover a todos los links / buttons
 
-TODO: animaciones de menu, y entrada de cards
+TODO: animaciones de menu
 
 TODO: hover en las cards (collections, fabrics)
 
