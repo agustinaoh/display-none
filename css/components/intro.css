@@ -18,24 +18,27 @@
   margin: 0;
 }
 
+/*
 #intro a {
   position: absolute;
-  transform: rotate(-90deg) translateX(50%) /* rotation compensation */;
+  transform: rotate(-90deg) translateX(50%) rotation compensation;
   transform-origin: bottom;
   bottom: 0;
   right: -20px;
   padding: 0;
 }
-
+*/
 
 body { margin: 20px; }
 
 .marquee {
   height: 25px;
   width: 350px;
-
+  transform: rotate(-90deg) translateX(65%) /* rotation compensation */;
+  transform-origin: bottom;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  right: 50px;
 }
 
 .marquee div {
