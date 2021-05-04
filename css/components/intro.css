@@ -87,4 +87,11 @@ body { margin: 20px; }
     font-weight: 400;
     width: 70%;
   }
+  .marquee {
+    transform: rotate(0deg) translateX(0) /* rotation compensation */;
+    overflow: hidden;
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+  }
 }
