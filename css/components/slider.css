@@ -10,20 +10,12 @@
   bottom: 130px;
 }
 
-.slider h2 {
-  letter-spacing: 30px;
-  font-weight: 300;
-  color: white;
-  font-size: 4.5rem;
-}
-
 .slider .carousel-item {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  padding: 0 16px;
+  padding: 0;
   transition: all 1s ease;
-
 }
 
 .carousel-indicators {
@@ -48,6 +40,21 @@
   opacity: 1;
 }
 
+#slider-text {
+  position: absolute;
+  z-index: 5;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+
+#slider-text h2 {
+  letter-spacing: 30px;
+  font-weight: 300;
+  color: white;
+  font-size: 4.5rem;
+  
+}
 /* For typical mobile devices */
 @media only screen and (min-width: 360px) and (max-width: 479px) {
   .slider {
