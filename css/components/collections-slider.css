@@ -1,19 +1,23 @@
-.collection-carousel {
+#collections {
   position: relative;
 }
 
-.collection-carousel .collection-content{
+#collections-content{
   display: flex;
   position: absolute;
+  z-index: 2;
   padding-bottom: 80px;
+  height: 100%;
+  max-width: 70%;
 }
 
-.collection-carousel .collection-content p {
+#collections-text {
   color: white;
   font-size: 3.3rem;
+  max-width: 65%;
 }
 
-.collection-carousel .button-white {
+#collections-content .button-white {
   transform: translateY(-35px);
   font-size: 1.8rem;
 }
@@ -30,26 +34,25 @@
   width: 74px;
 }
 
-
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 829px) {
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     background-size: 40%;
   }
 
-  .collection-carousel .collection-content p {
-    font-size: 1.5rem;
-  }
+  #collections-text { font-size: 1.5rem; }
+  #collections-content .button-white { font-size: 1.1rem; }
 
-  .collection-carousel .collection-content {
-    display: block;
+  #collections-content {
+    padding: 10px 0;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1100px) {
+@media only screen and (min-width: 830px) and (max-width: 1200px) {
+
+  #collections-text { font-size: 2.4rem; }
+  #collections-content .button-white { font-size: 1.4rem; }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
