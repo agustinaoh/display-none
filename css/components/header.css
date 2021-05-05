@@ -22,7 +22,7 @@
 
 .menu {
   position: absolute;
-  z-index: 10;
+  z-index: 20;
   background-color: white;
   right: 0;
   height: 100vh;

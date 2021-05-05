@@ -19,6 +19,10 @@
   margin: 0;
 }
 
+#intro img {
+  max-width: 100%;
+}
+
 /*
 #intro a {
   position: absolute;

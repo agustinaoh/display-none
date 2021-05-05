@@ -54,29 +54,32 @@
 
   <!-- Slider -->
   <div class="slider">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      
+
+    <!-- <div id="slider-text">
+      <h2 class="universe-t text-center">A UNIVERSE OF TEXTILES</h2>
+      <a href="#" class="button-white button-underline">DISCOVER</a>
+    </div> -->
+    <div id="carouselMain" class="carousel slide" data-ride="carousel">
+
       <!-- bullets -->
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselMain" data-slide-to="1"></li>
+        <li data-target="#carouselMain" data-slide-to="2"></li>
       </ol>
-
-      <!-- contenido -->
       <div class="carousel-inner">
-        <div class="carousel-item d-flex align-items-center justify-content-center active", style="background-image: url(images/image-01.jpg);">
-          <h2 class="universe-t text-center">A UNIVERSE OF TEXTILES</h2>
-          <a href="#" class="button-white button-underline">DISCOVER</a>
+        <div class="carousel-item active">
+            <img src="images/image-01.jpg" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="images/image-02.jpg" alt="Second slide">
+          <img src="images/image-02.jpg" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="images/image-03.jpg" alt="Third slide">
+          <img src="images/image-03.jpg" class="d-block w-100" alt="">
         </div>
       </div>
-
+    </div>
+    
       <!-- flechas -->
       <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -87,7 +90,7 @@
         <span class="sr-only">Next</span>
       </a> -->
       <!-- out -->
-    </div>
+  
 
   </div>
 
@@ -259,8 +262,6 @@
 
     <footer>
       <div class="links row justify-content-between align-items-center">
-        
-        <!-- FIXME: just fckin do it -->
         <!-- policies -->
         <div class="footer-links">
           <a href="#">Privacy Policy</a> <br> <a href="#">Cookies Policy</a> <a href="#" class="mx-3">Legal Notice</a>
@@ -286,6 +287,10 @@
       <p id="copyright" class="text-center">© 2020 All rights reserved.</p>
     </footer>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>

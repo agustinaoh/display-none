@@ -77,7 +77,6 @@ function initSlides() {
   })
 };
   
-
 // event listeners
 hamburgerMenu.addEventListener('click', openMenu);
 closeIcon.addEventListener('click', closeMenu);
@@ -85,4 +84,5 @@ closeIcon.addEventListener('click', closeMenu);
 window.onload = () => {
   initIntro()
   initSlides()
+  $('#carouselMain').carousel('cycle')
 };
