@@ -2,9 +2,13 @@ TODO: hover a todos los links / buttons
 
 TODO: animaciones de menu
 
-TODO: hover en las cards (collections, fabrics)
+TODO: hover en links de news
 
-FIXME: carousels
+FIXME: carousel 2 responsive
+
+TODO: link flecha up
+
+TODO: toggle ACTIVO en menu > language
 
 
 
