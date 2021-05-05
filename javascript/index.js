@@ -41,7 +41,7 @@ function initIntro() {
 
   let telas = gsap.timeline({
     scrollTrigger: {
-      trigger: '.telas',
+      trigger: '#telas',
       scrub: 1,
       start: "top bottom",
       end: "center top"
