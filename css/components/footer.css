@@ -13,15 +13,49 @@ footer a {
   line-height: 2.8rem;
 }
 
+.footer-links {
+  width: 30%;
+}
+
+.footer-links:nth-child(2) {
+  text-align: center;
+}
+
+.footer-links:nth-child(3) {
+  text-align: end;
+}
+
+
 #copyright{
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width:990px) {
+@media only screen and (max-width: 800px){
+  .footer-links {
+    width: 100%;
+    text-align: center !important;
+  }
+  .footer-links:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  footer .links {
+    padding: 40px 0;
+  }
+
+  footer a {
+    font-size: 1.2rem;
+  }
+
+  #copyright{
+    font-size: 1rem;
+  }
+
+}
+@media only screen and (min-width: 801px) and (max-width:1000px) {
   footer a {
     color: #243846;
     font-size: 1rem;
     line-height: 2.8rem;
   }
-  
 }
