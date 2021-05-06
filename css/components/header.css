@@ -1,6 +1,11 @@
 .header {
-  position: absolute;
+  position: fixed;
   z-index: 5;
+  width: 100vw;
+}
+
+.header-color {
+  background-color: #49505740;
 }
 
 #hamburger {
@@ -104,10 +109,6 @@
 
   #hamburger p {
     display: none;
-  }
-  
-  #hamburger img {
-    
   }
 
   #hamburger {

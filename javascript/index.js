@@ -1,5 +1,3 @@
-console.log('hi');
-
 gsap.registerPlugin(ScrollTrigger);
 
 // selectors
@@ -11,10 +9,10 @@ const carousel = document.querySelector('.carousel');
 const newsSection = document.querySelector('#news');
 const introSection = document.querySelector('#intro');
 
+const languages = document.querySelectorAll('.lang-tag');
 
-const spanish = document.querySelector('#english');
-const english = document.querySelector('#spanish');
-const languages = [spanish, english]
+const header = document.querySelector('.header');
+
 // functions
 function openMenu(){
   hamburgerMenu.classList.add('hidden');
@@ -26,12 +24,30 @@ function closeMenu(){
   menu.classList.add('hidden');
 }
 
-function languageToggle(){
+function languageSelector(){
   languages.forEach(language => language.classList.remove('active'));
   this.classList.add('active');
 }
 
+function navbarOpacity(){
+  const startSlide = (window.scrollY + window.innerHeight);
+
+  // offset top: pixels from top of html file till top of the image
+  const imageBottom = carousel.offsetTop + carousel.offsetHeight;
+
+  // the image should be shown when scrolling reaches the half way
+  // through the image, and it's 'bigger' than the top position
+  const show = startSlide > carousel.offsetTop ;
+
+  //we're still watching the image. we didn't scroll pass the bottom of the image
+  const notScrolledOut = imageBottom > window.scrollY;
+
+  (show && notScrolledOut) ? header.classList.remove('header-color') : header.classList.add('header-color')
+}
+
 // GSAP
+
+
 function initIntro() {
   // set up scrollTrigger animation for the when the intro scrolls out
   let designArea = gsap.timeline({
@@ -63,6 +79,19 @@ function initIntro() {
         .from('.fc-4', {y: 200, duration: 3, opacity: 0}, '-= 3' )
 }
 
+function initArrow() {
+  let lt = gsap.timeline({
+    scrollTrigger: {
+      trigger: '#design-image',
+      start: '-60 bottom',
+      end: '200 bottom',
+      scrub: 1,
+    }
+  })
+
+  lt.from('#scroll-top', {duration: 2, opacity: 0});
+}
+
 function initSlides() {
     
   // Animation of each slide scrolling into view
@@ -70,7 +99,6 @@ function initSlides() {
   let tl = gsap.timeline({
       scrollTrigger: {
           trigger: '#intro',
-          // start: "40% 50%", // position of trigger meets the scroller position
           start: "top bottom",
           end: "center top",
           markers: false
@@ -89,8 +117,8 @@ function initSlides() {
 // event listeners
 hamburgerMenu.addEventListener('click', openMenu);
 closeIcon.addEventListener('click', closeMenu);
-languages.forEach(language => language.addEventListener('click', languageToggle));
-
+languages.forEach(language => language.addEventListener('click', languageSelector));
+document.addEventListener('scroll', navbarOpacity);
 
 
 window.onload = () => {
