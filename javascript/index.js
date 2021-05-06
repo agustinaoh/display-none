@@ -124,5 +124,6 @@ document.addEventListener('scroll', navbarOpacity);
 window.onload = () => {
   initIntro()
   initSlides()
+  initArrow()
   $('#carouselMain').carousel('cycle')
 };
