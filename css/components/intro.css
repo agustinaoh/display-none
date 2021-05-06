@@ -23,17 +23,6 @@
   max-width: 100%;
 }
 
-/*
-#intro a {
-  position: absolute;
-  transform: rotate(-90deg) translateX(50%) rotation compensation;
-  transform-origin: bottom;
-  bottom: 0;
-  right: -20px;
-  padding: 0;
-}
-*/
-
 body { margin: 20px; }
 
 .marquee {

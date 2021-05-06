@@ -39,6 +39,7 @@
 @media only screen and (max-width: 770px) {
   #telas {
     margin-top: 110px;
+    margin-bottom: 40px;
   }
 
   .fabric-card {
@@ -52,5 +53,8 @@
     width: 48%;
     height: 55vh;
     margin-bottom: 2vw;
+  }
+  #telas {
+    margin-bottom: 40px;
   }
 }
