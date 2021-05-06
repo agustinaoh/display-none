@@ -7,10 +7,14 @@ const hamburgerMenu = document.querySelector('#hamburger');
 const closeIcon = document.querySelector('#close')
 const menu = document.querySelector('.menu');
 
-const carousel = document.querySelector('.carousel')
-const newsSection = document.querySelector('#news')
-const introSection = document.querySelector('#intro')
+const carousel = document.querySelector('.carousel');
+const newsSection = document.querySelector('#news');
+const introSection = document.querySelector('#intro');
 
+
+const spanish = document.querySelector('#english');
+const english = document.querySelector('#spanish');
+const languages = [spanish, english]
 // functions
 function openMenu(){
   hamburgerMenu.classList.add('hidden');
@@ -20,6 +24,11 @@ function openMenu(){
 function closeMenu(){
   hamburgerMenu.classList.remove('hidden');
   menu.classList.add('hidden');
+}
+
+function languageToggle(){
+  languages.forEach(language => language.classList.remove('active'));
+  this.classList.add('active');
 }
 
 // GSAP
@@ -34,10 +43,10 @@ function initIntro() {
       }
   });
 
-  designArea.from('.intro__title', {x: -400, duration: 3, opacity: 0, ease: 'power4'})
-  designArea.from('#find-your-style', {x: 500, duration: 3}, '-= 3' )
+  designArea.from('.intro__title', {x: -400, duration: 3, opacity: 0, ease: 'power4'});
+  designArea.from('#find-your-style', {x: 500, duration: 3}, '-= 3' );
 
-  gsap.from('.universe-t', {y: 400, duration: 1, opacity: 0})
+  gsap.from('.universe-t', {y: 400, duration: 1, opacity: 0});
 
   let telas = gsap.timeline({
     scrollTrigger: {
@@ -80,6 +89,9 @@ function initSlides() {
 // event listeners
 hamburgerMenu.addEventListener('click', openMenu);
 closeIcon.addEventListener('click', closeMenu);
+languages.forEach(language => language.addEventListener('click', languageToggle));
+
+
 
 window.onload = () => {
   initIntro()
