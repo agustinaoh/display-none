@@ -14,7 +14,7 @@
   width: 30%;
 }
 
-#design-area .btn-link {
+#design-area .button-link {
   position: absolute;
   bottom: -40px;
 }
@@ -25,8 +25,11 @@
   border-bottom: 3px solid #243846;
 }
 
-#find-your-style a:hover {
+#find-your-style p:hover {
   text-decoration: none;
+  color: #243846;
+  text-decoration: line-through;
+  ;
 }
 
 #design-area a {
@@ -68,7 +71,7 @@
     font-size: 1.4rem;
   }
 
-  #design-area .btn-link {
+  #design-area .button-link {
     position: absolute;
     bottom: -40px;
     right: 0;
@@ -86,7 +89,7 @@
     bottom: 60px;
   }
   
-  #design-area .btn-link {
+  #design-area .button-link {
     position: absolute;
     bottom: -40px;
     right: 0;
