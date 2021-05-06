@@ -19,10 +19,14 @@
   bottom: -40px;
 }
 
-#find-your-style{
+#find-your-style {
   margin-top: 30px;
   padding: 0 0 2px 0;
   border-bottom: 3px solid #243846;
+}
+
+#find-your-style a:hover {
+  text-decoration: none;
 }
 
 #design-area a {

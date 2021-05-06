@@ -92,7 +92,6 @@
   position: fixed;
   z-index: 30;
   bottom: 20px;
-  right: 20px;
-  box-shadow: 1px 1px 12px -1px #00000026;
+  right: 40px;
 }
 
