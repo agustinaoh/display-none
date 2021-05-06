@@ -26,6 +26,12 @@ footer a {
 }
 
 
+#policy-links a:hover,
+#social-media-links a:hover {
+  color: #243846;
+  opacity: 0.5;
+}
+
 #copyright{
   font-size: 1.2rem;
 }
